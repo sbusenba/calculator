@@ -1,0 +1,17 @@
+.flex{
+    flex:auto; 
+    width: 180px;
+    align-content:space-around;
+    justify-content:space-around;
+}
+
+.button {
+    font-size: 16px;
+    font-weight:700;
+    height:50px;
+    width:50px;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 4, 126);
+    background-color:black;
+    color:white;
+}
