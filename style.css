@@ -1,11 +1,22 @@
 .flex{
-    flex:auto; 
-    width: 180px;
-    align-content:space-around;
-    justify-content:space-around;
+    flex:1; 
+    padding:5px;
+    width: 185px;
+    align-content:flex-end;
+    justify-content:flex-end;
+    background-color: cyan;
 }
-
+#display{
+    height:50px;
+    width: 190px;
+    border: 2px solid rgb(4, 4, 126);
+    background-color:black;
+    color:lightslategray;
+    font-weight:700l;
+}
 .button {
+    margin: 3px;
+    padding:0px;
     font-size: 16px;
     font-weight:700;
     height:50px;
@@ -14,4 +25,9 @@
     border: 2px solid rgb(4, 4, 126);
     background-color:black;
     color:white;
+    box-shadow:4px 4px 2px 1px indigo;
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
