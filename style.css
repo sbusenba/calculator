@@ -1,21 +1,36 @@
 .flex{
     flex:1; 
     padding:5px;
-    width: 185px;
+    width: 200px;
     align-content:flex-end;
     justify-content:flex-end;
     background-color: cyan;
 }
 #display{
     height:50px;
-    width: 190px;
+    width: 200px;
     border: 2px solid rgb(4, 4, 126);
     background-color:black;
     color:lightslategray;
-    font-weight:700l;
+    font-weight:700;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+
+}
+.display-top{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.display-input{
+    align-self:flex-end;
 }
 .button {
-    margin: 3px;
+    margin-top:  5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
     padding:0px;
     font-size: 16px;
     font-weight:700;
@@ -27,7 +42,26 @@
     color:white;
     box-shadow:4px 4px 2px 1px indigo;
 }
-
+.equals.button{
+    height:50px;
+    width:115px;
+}
+.button:hover{
+    background-color:darkslategrey;
+}
+.keypad{
+    width:280px;
+    display:flex;
+    flex-direction:row;
+}
+.numbpad{
+    flex:0;
+}
+.operatorpad{
+    display:flex;
+    flex-direction:column;
+    flex:0;
+}
 h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
