@@ -18,6 +18,12 @@
     justify-content:space-around;
 
 }
+.displayBorder{
+    padding:20px;
+    background-color: cyan;
+    width:240px;
+
+}
 .display-top{
     display:flex;
     flex-direction:row;
